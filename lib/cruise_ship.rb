@@ -7,5 +7,5 @@ suite_e: "Crumpet the Elf"
 }
 
 def select_winner(passengers)
-  passengers[:suite_a]
+  passengers[:suite_a][0] == "A" ? passengers[:suite_a] : ""
 end
